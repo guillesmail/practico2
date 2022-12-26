@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.contenedor{
+    display: flex;
+    
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    flex-grow: 3;
+    
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    flex-grow: 2;
+    align-items: center;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.imgredonda{
+    width: 25px;
+    height: 25px;
+    border-radius: 150px;
+    
+}
+
+.icon2{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.search input{
+    border-radius: 5px;
+    border: solid 1px silver;
+    margin-left: 0.5rem;
+    width: 80%;
+    outline: none;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 800; 
+    content: "\f007";
+}
+
+.lupa{
+    position: absolute;
+    left: 400px;
+}
+
+ 
